@@ -1,0 +1,137 @@
+/* پس‌زمینه مدرن و لطیف */
+body {
+ /* background: linear-gradient(to right, #74ebd5, #acb6e5);*/
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  background: url("your-image.jpg") no-repeat center center fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Vazirmatn", sans-serif;
+  margin: 0;
+}
+
+/* بک‌گراند گرادینت نرم و مدرن */
+
+/* جعبه اصلی داشبورد */
+.app {
+  background: rgb(15, 26, 124);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  width: 90%;
+  text-align: center;
+}
+
+/* عنوان اصلی */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f8efef;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title svg {
+  font-size: 28px;
+  color: #ff9800;
+}
+
+/* استایل کارت‌های اطلاعات */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* استایل کارت‌ها با سایه زیبا */
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* سایه و افکت هنگام هاور */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* عنوان کارت */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* مقدار سنسور */
+.card-value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* وضعیت سنسور */
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.on {
+  background: #4caf50;
+  color: white;
+}
+
+.off {
+  background: #e74c3c;
+  color: white;
+}
+
+/* دکمه‌های کنترلی */
+.control-button {
+  background: #ff7043;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.control-button:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
+
+/* کانتینر کارت‌ها با فاصله مناسب */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+  
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 39%;
+}
