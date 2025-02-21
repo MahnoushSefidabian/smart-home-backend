@@ -118,9 +118,9 @@ Clients listening to `sensorUpdate` will receive **instant updates** whenever a 
 
 ---
 
-##  **How to Test APIs?**  
+##  How to Test APIs?  
 
-### ** Using Postman**  
+### Using Postman  
 - **GET** request to `http://localhost:5050/status`  
 - **POST** request to `http://localhost:5050/control` with JSON data  
 
