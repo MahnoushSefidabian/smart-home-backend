@@ -130,7 +130,7 @@ Clients listening to `sensorUpdate` will receive **instant updates** whenever a 
 curl -X GET http://localhost:5050/status
 ```
 
- **Control devices:**  
+ Control devices:
 ```bash
 curl -X POST http://localhost:5050/control -H "Content-Type: application/json" -d '{"light": 1, "buzzer": 0, "heater": 1, "temperature": 22}'
 ```
